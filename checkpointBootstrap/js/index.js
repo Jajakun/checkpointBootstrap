@@ -1,0 +1,19 @@
+$('.shower0').hover(function(){
+    $('.shower').toggleClass('abc');
+})
+$('.drawing0').hover(function(){
+    $('.drawing').toggleClass('abc');
+})
+$('.theatre0').hover(function(){
+    $('.theatre').toggleClass('abc');
+})
+$('.running0').hover(function(){
+    $('.running').toggleClass('abc');
+})
+$('.reading0').hover(function(){
+    $('.reading').toggleClass('abc');
+})
+$('.cinema0').hover(function(){
+    $('.cinema').toggleClass('abc');
+})
+

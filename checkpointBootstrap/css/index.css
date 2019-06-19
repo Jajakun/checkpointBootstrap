@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    line-height: 2.1em;
+    padding:0;
+}
+.topbar{
+    padding: 0 !important;
+    margin: 0;
+}
+.banner{
+    background-image: url("../res/banner.png");
+    height: 250px;
+    width:100%;
+    background-size: cover;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+.photo-profile{
+    border-radius: 50%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+    display: block;
+    margin:auto;
+    top:-100px;
+    position: relative;
+    width:200px;
+}
+.contact{
+    top:-40px; 
+    text-align: center; 
+}
+.Name{
+    top:-10px;
+    text-align: center;
+}
+h4{
+    font-weight: 400 !important;
+    color: grey;
+}
+h2{
+    color:rgb(231, 71, 106);
+}
+p{
+    text-align: justify;
+}
+ul{
+    text-align: justify;
+}
+.contact a svg{
+    font-size:1.8em;
+    color:pink;
+}
+.icone{
+    text-align: center;
+    font-size: 3.5em;
+}
+/* .icone svg :hover{
+    transform: rotate(360deg);
+    
+    transition: all .37s;
+} */
+.hover-pls:hover{
+    transform: rotate(360deg);
+    
+    transition: all .37s;
+}
+.project-row{
+    margin:60px 0px 50px 0px;
+}
+.project{
+    padding:10px;
+    text-align: center;
+}
+.inner-project{
+    background-color:pink;
+    margin:0px;
+    
+    height: 234px;
+    padding: 5%;
+}
+.icone p{
+    font-size: 0.3em;
+    text-align: center;
+}
+
+.studies-experiences{
+    margin-top:70px;
+}
+.shower{opacity:0;}
+.drawing{opacity:0;}
+.theatre{opacity: 0;}
+.running{opacity: 0;}
+.reading{opacity: 0;}
+.cinema{opacity: 0;}
+
+
+
+.abc{
+    opacity: 1;
+}
+ 
+/* @media only screen and (max-width:769px){
+    .photo-profile{
+        height:100px;
+        top:-50px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .photo-profile{
+        height:250px;
+        top:-100px;
+    }
+} */
